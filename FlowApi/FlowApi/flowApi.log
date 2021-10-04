@@ -1,0 +1,124 @@
+INFO  11:06:24 Application started. Press Ctrl+C to shut down.
+INFO  11:06:24 Hosting environment: Development
+INFO  11:06:24 Content root path: D:\FlowApi\FlowApi
+ERROR 11:06:36 An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: Multiple constructors accepting all given argument types have been found in type 'FlowApi.Controllers.FlowController'. There should only be one applicable constructor.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.TryFindMatchingConstructor(Type instanceType, Type[] argumentTypes, ConstructorInfo& matchingConstructor, Nullable`1[]& parameterMap)
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.FindApplicableConstructor(Type instanceType, Type[] argumentTypes, ConstructorInfo& matchingConstructor, Nullable`1[]& matchingParameterMap)
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.CreateFactory(Type instanceType, Type[] argumentTypes)
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerActivatorProvider.CreateActivator(ControllerActionDescriptor descriptor)
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.CreateControllerFactory(ControllerActionDescriptor descriptor)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvokerCache.GetCachedResult(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvokerProvider.OnProvidersExecuting(ActionInvokerProviderContext context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionInvokerFactory.CreateInvoker(ActionContext actionContext)
+   at Microsoft.AspNetCore.Mvc.Routing.ActionEndpointFactory.<>c__DisplayClass7_0.<CreateRequestDelegate>b__0(HttpContext context)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.Invoke(HttpContext httpContext)
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+INFO  11:09:57 Application started. Press Ctrl+C to shut down.
+INFO  11:09:57 Hosting environment: Development
+INFO  11:09:57 Content root path: D:\FlowApi\FlowApi
+ERROR 11:10:05 An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: Multiple constructors accepting all given argument types have been found in type 'FlowApi.Controllers.FlowController'. There should only be one applicable constructor.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.TryFindMatchingConstructor(Type instanceType, Type[] argumentTypes, ConstructorInfo& matchingConstructor, Nullable`1[]& parameterMap)
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.FindApplicableConstructor(Type instanceType, Type[] argumentTypes, ConstructorInfo& matchingConstructor, Nullable`1[]& matchingParameterMap)
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.CreateFactory(Type instanceType, Type[] argumentTypes)
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerActivatorProvider.CreateActivator(ControllerActionDescriptor descriptor)
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.CreateControllerFactory(ControllerActionDescriptor descriptor)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvokerCache.GetCachedResult(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvokerProvider.OnProvidersExecuting(ActionInvokerProviderContext context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionInvokerFactory.CreateInvoker(ActionContext actionContext)
+   at Microsoft.AspNetCore.Mvc.Routing.ActionEndpointFactory.<>c__DisplayClass7_0.<CreateRequestDelegate>b__0(HttpContext context)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.Invoke(HttpContext httpContext)
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+ERROR 11:10:26 An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: Multiple constructors accepting all given argument types have been found in type 'FlowApi.Controllers.FlowController'. There should only be one applicable constructor.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.TryFindMatchingConstructor(Type instanceType, Type[] argumentTypes, ConstructorInfo& matchingConstructor, Nullable`1[]& parameterMap)
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.FindApplicableConstructor(Type instanceType, Type[] argumentTypes, ConstructorInfo& matchingConstructor, Nullable`1[]& matchingParameterMap)
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.CreateFactory(Type instanceType, Type[] argumentTypes)
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerActivatorProvider.CreateActivator(ControllerActionDescriptor descriptor)
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.CreateControllerFactory(ControllerActionDescriptor descriptor)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvokerCache.GetCachedResult(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvokerProvider.OnProvidersExecuting(ActionInvokerProviderContext context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionInvokerFactory.CreateInvoker(ActionContext actionContext)
+   at Microsoft.AspNetCore.Mvc.Routing.ActionEndpointFactory.<>c__DisplayClass7_0.<CreateRequestDelegate>b__0(HttpContext context)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.Invoke(HttpContext httpContext)
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+INFO  11:11:34 Application started. Press Ctrl+C to shut down.
+INFO  11:11:34 Hosting environment: Development
+INFO  11:11:34 Content root path: D:\FlowApi\FlowApi
+INFO  11:11:43 Get flower by 1 is invoked
+INFO  12:11:24 Application started. Press Ctrl+C to shut down.
+INFO  12:11:24 Hosting environment: Development
+INFO  12:11:24 Content root path: D:\FlowApi\FlowApi
+INFO  12:11:34  Http Get Flower Details request
+INFO  12:12:09 Application started. Press Ctrl+C to shut down.
+INFO  12:12:09 Hosting environment: Development
+INFO  12:12:09 Content root path: D:\FlowApi\FlowApi
+INFO  12:12:18  Http Get Flower Details request
+INFO  12:14:45 Application started. Press Ctrl+C to shut down.
+INFO  12:14:45 Hosting environment: Development
+INFO  12:14:45 Content root path: D:\FlowApi\FlowApi
+INFO  12:14:53  Http Get Flower Details request
+INFO  12:15:20 Application started. Press Ctrl+C to shut down.
+INFO  12:15:20 Hosting environment: Development
+INFO  12:15:20 Content root path: D:\FlowApi\FlowApi
+INFO  12:15:53  Http Get Flower Details request
+INFO  12:16:34 Get flower by Rose is invoked
+INFO  12:19:57 Application started. Press Ctrl+C to shut down.
+INFO  12:19:57 Hosting environment: Development
+INFO  12:19:57 Content root path: D:\FlowApi\FlowApi
+INFO  12:20:05  Http Get Flower Details request
+INFO  12:22:28 Application started. Press Ctrl+C to shut down.
+INFO  12:22:28 Hosting environment: Development
+INFO  12:22:28 Content root path: D:\FlowApi\FlowApi
+INFO  12:22:36  Http Get Flower Details request
+INFO  12:27:18 Application started. Press Ctrl+C to shut down.
+INFO  12:27:18 Hosting environment: Development
+INFO  12:27:18 Content root path: D:\FlowApi\FlowApi
+INFO  12:27:44  Http Get Flower Details request
+INFO  12:35:47 Application started. Press Ctrl+C to shut down.
+INFO  12:35:47 Hosting environment: Development
+INFO  12:35:47 Content root path: D:\FlowApi\FlowApi
+INFO  12:35:54  Http Get Flower Details request
+INFO  12:36:05  Http Get Flower Details request
+INFO  12:56:52 Application started. Press Ctrl+C to shut down.
+INFO  12:56:52 Hosting environment: Development
+INFO  12:56:52 Content root path: D:\FlowApi\FlowApi
+INFO  12:57:07  Http Get  Details request
+INFO  12:58:55 Application started. Press Ctrl+C to shut down.
+INFO  12:58:55 Hosting environment: Development
+INFO  12:58:55 Content root path: D:\FlowApi\FlowApi
+INFO  12:59:03  Http Get  Details request
+INFO  09:46:23 Application started. Press Ctrl+C to shut down.
+INFO  09:46:23 Hosting environment: Development
+INFO  09:46:23 Content root path: D:\FlowApi\FlowApi
+INFO  09:46:38  Http Get  Details request
+INFO  09:46:57  Http Get Drug Details request
+INFO  10:10:41 Application started. Press Ctrl+C to shut down.
+INFO  10:10:41 Hosting environment: Development
+INFO  10:10:41 Content root path: D:\FlowApi\FlowApi
+INFO  10:15:54 Application started. Press Ctrl+C to shut down.
+INFO  10:15:54 Hosting environment: Development
+INFO  10:15:54 Content root path: D:\FlowApi\FlowApi
+INFO  10:19:11 Application started. Press Ctrl+C to shut down.
+INFO  10:19:11 Hosting environment: Development
+INFO  10:19:11 Content root path: D:\FlowApi\FlowApi
+INFO  10:20:45 Application started. Press Ctrl+C to shut down.
+INFO  10:20:45 Hosting environment: Development
+INFO  10:20:45 Content root path: D:\FlowApi\FlowApi
+INFO  05:16:49 Application started. Press Ctrl+C to shut down.
+INFO  05:16:49 Hosting environment: Development
+INFO  05:16:49 Content root path: D:\FlowApi\FlowApi
+INFO  05:17:05  Http Get  Details request
